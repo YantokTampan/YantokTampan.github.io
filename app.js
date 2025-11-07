@@ -1,6 +1,6 @@
 // Inisialisasi koneksi ke server Socket.IO
 // Ganti 'localhost:5000' jika server Anda berjalan di port lain
-const socket = io('http://localhost:5000');
+const socket = io('https://tesbackend.onrender.com');
 
 // 1. Event listener ketika berhasil terhubung
 socket.on('connect', () => {
@@ -46,3 +46,4 @@ socket.on('status_parkir_batch', (batchData) => {
 socket.on('disconnect', () => {
     console.log('Koneksi ke server terputus.');
 });
+
