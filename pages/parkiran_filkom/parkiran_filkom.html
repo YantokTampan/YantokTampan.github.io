@@ -5,7 +5,7 @@
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <title>Parkiran Filkom</title>
-                <link rel="stylesheet" href="styles.css">
+                <link rel="stylesheet" href="parkiran_filkom.css">
         </head>
 
         <body>
@@ -23,15 +23,15 @@
                 </header>
 
                 <main class="container">
-                        <section class="card stat-card">
-                                <div class="stat-number" id="availableCount">20</div>
+                        <div class="card stat-card">
+                                <div class="stat-number" id="availableCount">0</div>
                                 <div class="stat-label">Available Spots</div>
-                        </section>
+                        </div>
+
                         <section class="card layout-card">
                                 <div class="layout-head">
                                         <h2>Layout</h2>
                                 </div>
-
                                 <div class="spots-grid" id="spotsGrid">
                                         <!-- A1 – A20 (semua mengikuti struktur tombol A1) -->
                                         <!-- Komponen ikon mobil -->
@@ -318,7 +318,6 @@
                                                         </svg></span><span class="code">A20</span></button>
                                 </div>
 
-
                                 <div class="legend">
                                         <span class="legend-item">
                                                 <span class="dot dot-available"></span> Available
@@ -329,7 +328,7 @@
                                 </div>
                         </section>
                 </main>
-                <script src="app.js"></script>
+                <script type="module" src="parkiran_filkom.js"></script>
         </body>
 
 </html>

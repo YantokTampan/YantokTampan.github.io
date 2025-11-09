@@ -39,13 +39,14 @@
                 <h2>Tempat parkir terpantau</h2>
                 <p>3 tempat parkir total</p>
             </div>
+
             <section class="grid-cards">
-                <article class="card">
+                <article class="card" data-lot-id="filkom">
                     <div class="card-top">
-                        <h3>Parkiran Teknik Elektro</h3>
-                        <div class="avail warn">
-                            <span class="count">10</span>
-                            <small>of 20 free</small>
+                        <h3>Parkiran Filkom</h3>
+                        <div class="avail ok">
+                            <span class="count" id="count-filkom">0</span>
+                            <small>available</small>
                         </div>
                     </div>
                     <div class="card-meta">
@@ -60,7 +61,7 @@
                     <div class="progress">
                         <div class="fill warn" style="--p:50;"></div>
                     </div>
-                    <button class="btn" href="\pages\parkiran_filkom\index.html">View Details</button>
+                    <button class="btn" href="\pages\parkiran_filkom\parkiran_filkom.html">View Details</button>
                 </article>
 
                 <article class="card">
@@ -108,6 +109,8 @@
                     <button class="btn">View Details</button>
                 </article>
             </section>
+
+            <script type="module" src="home.js"></script>
         </div>
         <script src="app.js"></script>
     </body>
